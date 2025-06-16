@@ -1,1 +1,0 @@
-{"version":3,"names":[],"sources":["react-native-check-box.d.ts"],"sourcesContent":["declare module 'react-native-check-box' {\n  const CheckBox: any;\n  export default CheckBox;\n}\n"],"mappings":"","ignoreList":[]}

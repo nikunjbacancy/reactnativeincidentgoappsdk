@@ -1,9 +1,0 @@
-export declare const Background: any;
-export declare const LogoRow: any;
-export declare const TitleRow: any;
-export declare const TitleText: any;
-export declare const ItemRow: any;
-export declare const ItemIcon: any;
-export declare const ItemText: any;
-export declare const ButtonRow: any;
-export declare const NotYetButton: any;

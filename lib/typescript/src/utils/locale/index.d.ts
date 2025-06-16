@@ -1,1 +1,0 @@
-export { getSystemLocale } from './getSystemLocale';

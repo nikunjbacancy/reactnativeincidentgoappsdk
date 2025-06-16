@@ -1,1 +1,0 @@
-{"version":3,"names":["default","secondsToMinutes"],"sources":["index.ts"],"sourcesContent":["/* eslint-disable import/prefer-default-export */\nexport { default as secondsToMinutes } from './secondsToMinutes';\n"],"mappings":"AAAA;AACA,SAASA,OAAO,IAAIC,gBAAgB,QAAQ,oBAAoB","ignoreList":[]}

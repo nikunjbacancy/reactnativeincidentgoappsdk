@@ -1,6 +1,0 @@
-diff a/src/assets/fonts.ts b/src/assets/fonts.ts	(rejected hunks)
-@@ -6 +6,3 @@ const fonts = {
--  defaultSemiBoldFamily: isAndroid ? 'proxima_nova_semibold' : 'ProximaNova-Semibold',
-+  defaultSemiBoldFamily: isAndroid
-+    ? 'proxima_nova_semibold'
-+    : 'ProximaNova-Semibold',

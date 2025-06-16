@@ -1,1 +1,0 @@
-{"version":3,"names":["SELECT_INCIDENT_CATEGORY"],"sources":["constants.ts"],"sourcesContent":["/**\n *\n * SelectCategoryScreen constants\n *\n */\n\nexport const SELECT_INCIDENT_CATEGORY =\n  'Home/NewTip/SelectCategoryScreen/SELECT_INCIDENT_CATEGORY';\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;;AAEA,OAAO,MAAMA,wBAAwB,GACnC,2DAA2D","ignoreList":[]}

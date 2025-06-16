@@ -1,1 +1,0 @@
-{"version":3,"names":["KeyTwilioAccessToken","exports","ExpireOffset"],"sources":["constants.ts"],"sourcesContent":["export const KeyTwilioAccessToken = 'TwilioService:AccessToken';\nexport const ExpireOffset = 3600000; // a hour\n"],"mappings":";;;;;;AAAO,MAAMA,oBAAoB,GAAAC,OAAA,CAAAD,oBAAA,GAAG,2BAA2B;AACxD,MAAME,YAAY,GAAAD,OAAA,CAAAC,YAAA,GAAG,OAAO,CAAC,CAAC","ignoreList":[]}
