@@ -18,5 +18,18 @@ example/android/.idea
 example/android/build
 example/android/app/build
 
+# Sensitive files to ignore
+example/ios/GoogleService-Info.plist
+example/android/app/google-services.json
+.env
+.env.*
+*.keystore
+*.jks
+example/ios/main.jsbundle
+# Build outputs
+example/android/app/build/
+example/ios/build/
+lib/
+
 
 

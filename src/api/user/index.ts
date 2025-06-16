@@ -15,6 +15,8 @@ import { isIos } from '../../utils/device';
 
 import axios from '../axios';
 
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+
 export const endpoints = {
   user: 'user',
   usernotifications: 'usernotifications'
@@ -39,7 +41,7 @@ export default {
   ) => axios.patch(`${endpoints.user}/setting`, { key, value }),
   getAddress: (lat: number, lng: number) =>
     axios.get<GeocodeResponse>(
-      `https://maps.googleapis.com/maps/api/geocode/json?address=${lat},${lng}&key=AIzaSyDQEfg7mKFvmYzQWFUYpRzv1PlwI6HuikI`,
+      `https://maps.googleapis.com/maps/api/geocode/json?address=${lat},${lng}&key=${GOOGLE_API_KEY}`,
     ),
   getAmazonUploadOptions: async (filePath: string) => {
     const newFilePath = isIos ? replace(filePath, 'file://', '') : filePath;
