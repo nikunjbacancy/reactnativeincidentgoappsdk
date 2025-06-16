@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.reactnativeincidentgopackage">
+
+    <application>
+        <service
+            android:name=".worker.CountdownService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            tools:ignore="WrongManifestParent" />
+    </application>
+
+</manifest> 

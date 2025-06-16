@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["types.ts"],"sourcesContent":["import { CHANGE_LOCALE } from './constants';\n\nexport interface LanguageProviderState {\n  locale: string;\n}\n\nexport interface ChangeLocaleAction {\n  type: typeof CHANGE_LOCALE;\n  payload: string;\n}\n\nexport type LanguageActionTypes = ChangeLocaleAction;\n"],"mappings":"","ignoreList":[]}

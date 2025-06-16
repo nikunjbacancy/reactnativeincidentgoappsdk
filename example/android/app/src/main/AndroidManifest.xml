@@ -1,0 +1,143 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.policepriority.incidentcode">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-permission android:name="android.permission.READ_PROFILE" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+
+  <uses-feature
+    android:name="android.hardware.bluetooth_le"
+    android:required="true" />
+
+  <uses-feature
+    android:name="android.hardware.location.gps"
+    android:required="false" />
+
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+  <uses-feature
+    android:name="android.hardware.camera"
+    android:required="false" />
+  <uses-feature
+    android:name="android.hardware.camera.autofocus"
+    android:required="false" />
+  <uses-feature
+    android:name="android.hardware.microphone"
+    android:required="false" />
+
+    <application
+      android:name="com.policepriority.incidentcode.MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name="com.policepriority.incidentcode.MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyACFwr9Kmh2yi6gB0fU3SPBGD-YPgxCGBU" />
+      <!-- react-native-background-geolocation licence -->
+      <meta-data
+        android:name="com.transistorsoft.locationmanager.license"
+        android:value="5d02b66b4bd10286880987fe76d090ccc2920844d53f189fecfb766a70f408ef" />
+
+      <receiver
+        android:name=".IncidentCoReceiver"
+        android:configChanges="locale"
+        android:enabled="true"
+        android:exported="true">
+        <intent-filter>
+          <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+          <action android:name="android.location.PROVIDERS_CHANGED" />
+          <action android:name="android.intent.action.BOOT_COMPLETED" />
+          <action android:name="com.htc.intent.action.BOOT_COMPLETED" />
+          <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+          <action android:name="android.intent.action.REBOOT" />
+          <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+          <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+          <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+          <action android:name="android.bluetooth.adapter.action.ACL_CONNECTED"/>
+          <action android:name="android.bluetooth.adapter.action.ACL_DISCONNECTED"/>
+        </intent-filter>
+      </receiver>
+
+      <service
+        android:name=".bluetooth.BluetoothLeService"
+        android:configChanges="locale"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/valrt_service_label"
+        android:stopWithTask="false" />
+      <service
+        android:name=".bluetooth.ReconnectService"
+        android:configChanges="locale"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" />
+
+      <service
+        android:name=".bluetooth.BluetoothEventService">
+      </service>
+
+      <receiver android:name="com.transistorsoft.locationmanager.BootReceiver"
+        android:enabled="true"
+        android:exported="false"
+        android:permission="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+      <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" android:enabled="true"/>
+
+
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+      <receiver
+        android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+        android:exported="true"
+        >
+        <intent-filter>
+          <action android:name="android.intent.action.BOOT_COMPLETED" />
+          <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+          <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+        </intent-filter>
+      </receiver>
+      <service
+        android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+        android:exported="true" >
+        <intent-filter>
+          <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+      </service>
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_foreground"
+        android:value="false"/>
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
+        android:resource="@android:color/white"/>
+
+    </application>
+</manifest>

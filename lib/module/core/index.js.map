@@ -1,0 +1,1 @@
+{"version":3,"names":["Config","appConfig"],"sources":["index.ts"],"sourcesContent":["import { Config } from 'incident-code-core';\n\nconst appConfig = new Config();\n\nexport default appConfig;\n"],"mappings":"AAAA,SAASA,MAAM,QAAQ,oBAAoB;AAE3C,MAAMC,SAAS,GAAG,IAAID,MAAM,CAAC,CAAC;AAE9B,eAAeC,SAAS","ignoreList":[]}

@@ -1,0 +1,10 @@
+import { LocationTrackListActionTypes } from './types';
+export declare const locationTrackRequest: (object: any) => LocationTrackListActionTypes;
+export declare const locationTrackSuccess: (object: any) => LocationTrackListActionTypes;
+export declare const geoCredStatusRequest: (object: any) => LocationTrackListActionTypes;
+export declare const geoCredStatusSuccess: (object: any) => LocationTrackListActionTypes;
+export declare const getAllGeofenceRequest: (object: any) => LocationTrackListActionTypes;
+export declare const getAllGeofenceSuccess: (object: any) => LocationTrackListActionTypes;
+export declare const getAllGeofenceFailure: (object: any) => LocationTrackListActionTypes;
+export declare const setSiteKeyStatusRequest: (object: any) => LocationTrackListActionTypes;
+export declare const setSiteKeyStatusSuccess: (object: any) => LocationTrackListActionTypes;

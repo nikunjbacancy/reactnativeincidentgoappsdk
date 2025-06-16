@@ -1,0 +1,1 @@
+{"version":3,"names":["Platform","isIos","OS"],"sources":["isIos.ts"],"sourcesContent":["import { Platform } from 'react-native';\n\nconst isIos = Platform.OS === 'ios';\n\nexport default isIos;\n"],"mappings":"AAAA,SAASA,QAAQ,QAAQ,cAAc;AAEvC,MAAMC,KAAK,GAAGD,QAAQ,CAACE,EAAE,KAAK,KAAK;AAEnC,eAAeD,KAAK","ignoreList":[]}

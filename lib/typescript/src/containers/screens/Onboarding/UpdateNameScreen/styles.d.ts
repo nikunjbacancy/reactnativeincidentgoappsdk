@@ -1,0 +1,11 @@
+export declare const Background: any;
+export declare const LogoRow: any;
+export declare const BackButtonCol: any;
+export declare const TitleRow: any;
+export declare const TitleText: any;
+export declare const InputRow: any;
+export declare const NameInputField: any;
+export declare const NameErrorField: any;
+export declare const PrivacyRow: any;
+export declare const PrivacyText: any;
+export declare const SubmitButtonRow: any;

@@ -1,0 +1,199 @@
+{
+  "project_info": {
+    "project_number": "562639745737",
+    "firebase_url": "https://api-4848415948144842116-428971.firebaseio.com",
+    "project_id": "api-4848415948144842116-428971",
+    "storage_bucket": "api-4848415948144842116-428971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562639745737:android:9a166084e31368ecf0d318",
+        "android_client_info": {
+          "package_name": "com.incidentcoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL0K74-nRD9HYKLkZDeyUIRhoQjMeECkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562639745737-2sud8n5cvuqtonqvqfh7jch2676hi2bb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.policepriority.incidentcode",
+                "app_store_id": "1440207393"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562639745737:android:376771b2bc2d8b9e",
+        "android_client_info": {
+          "package_name": "com.policepriority.incidentcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562639745737-5gdgefr7o2q6sfuh4ginc26k8l4feaat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.policepriority.incidentcode",
+            "certificate_hash": "176279edeb79a16d04617123121015898a360f70"
+          }
+        },
+        {
+          "client_id": "562639745737-ci0hmhmfmsac6hagerne0o8259l4ioav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.policepriority.incidentcode",
+            "certificate_hash": "0921053ceefd8a0d9da8b41d8766330fb6655fb3"
+          }
+        },
+        {
+          "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL0K74-nRD9HYKLkZDeyUIRhoQjMeECkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562639745737-2sud8n5cvuqtonqvqfh7jch2676hi2bb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.policepriority.incidentcode",
+                "app_store_id": "1440207393"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562639745737:android:2bdefb7535a9a3de",
+        "android_client_info": {
+          "package_name": "com.policepriority.incidentcode.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562639745737-u5u886v4pejfbmt1kqr0ril6eu1ao4aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.policepriority.incidentcode.dev",
+            "certificate_hash": "0921053ceefd8a0d9da8b41d8766330fb6655fb3"
+          }
+        },
+        {
+          "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL0K74-nRD9HYKLkZDeyUIRhoQjMeECkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562639745737-2sud8n5cvuqtonqvqfh7jch2676hi2bb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.policepriority.incidentcode",
+                "app_store_id": "1440207393"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562639745737:android:088488bd525c76c6",
+        "android_client_info": {
+          "package_name": "com.policepriority.incidentcode.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562639745737-r28fbpaenj1ofq99vljmdo446gdg997k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.policepriority.incidentcode.qa",
+            "certificate_hash": "ac150ee934bd219a95bfa6c8a1d22a700f0a0d88"
+          }
+        },
+        {
+          "client_id": "562639745737-tir0ii7au4drlau8fc7mv4d3ls9bmark.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.policepriority.incidentcode.qa",
+            "certificate_hash": "0921053ceefd8a0d9da8b41d8766330fb6655fb3"
+          }
+        },
+        {
+          "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL0K74-nRD9HYKLkZDeyUIRhoQjMeECkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562639745737-gco3l2hnsa4lnsvctm1q8g70f21de5pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562639745737-2sud8n5cvuqtonqvqfh7jch2676hi2bb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.policepriority.incidentcode",
+                "app_store_id": "1440207393"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

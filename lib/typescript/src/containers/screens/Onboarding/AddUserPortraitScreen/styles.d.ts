@@ -1,0 +1,9 @@
+export declare const Background: any;
+export declare const LogoRow: any;
+export declare const BackButtonCol: any;
+export declare const TitleRow: any;
+export declare const TitleText: any;
+export declare const ContinueButtonRow: any;
+export declare const InfoRow: any;
+export declare const InfoText: any;
+export declare const OptionalText: any;

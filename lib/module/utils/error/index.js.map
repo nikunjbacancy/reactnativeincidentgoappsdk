@@ -1,0 +1,1 @@
+{"version":3,"names":["default","handleError"],"sources":["index.ts"],"sourcesContent":["/* eslint-disable import/prefer-default-export */\nexport { default as handleError } from './handleError';\n"],"mappings":"AAAA;AACA,SAASA,OAAO,IAAIC,WAAW,QAAQ,eAAe","ignoreList":[]}

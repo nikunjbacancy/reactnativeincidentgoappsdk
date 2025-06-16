@@ -1,0 +1,1 @@
+{"version":3,"names":["require"],"sources":["redux.d.ts"],"sourcesContent":["import 'redux';\n\ndeclare module 'redux' {\n  import { RootState } from 'store/types';\n\n  interface Store {\n    getState(): RootState;\n  }\n}\n"],"mappings":";;AAAAA,OAAA","ignoreList":[]}

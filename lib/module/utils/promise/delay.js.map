@@ -1,0 +1,1 @@
+{"version":3,"names":["delay","ms","Promise","_","setTimeout"],"sources":["delay.ts"],"sourcesContent":["const delay = (ms: number) => new Promise(_ => setTimeout(_, ms));\n\nexport default delay;\n"],"mappings":"AAAA,MAAMA,KAAK,GAAIC,EAAU,IAAK,IAAIC,OAAO,CAACC,CAAC,IAAIC,UAAU,CAACD,CAAC,EAAEF,EAAE,CAAC,CAAC;AAEjE,eAAeD,KAAK","ignoreList":[]}

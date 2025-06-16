@@ -1,0 +1,16 @@
+export declare const Background: any;
+export declare const LogoRow: any;
+export declare const TitleRow: any;
+export declare const TitleText: any;
+export declare const InputRow: any;
+export declare const CountryText: any;
+export declare const PhoneLabelCol: any;
+export declare const PhoneInputCol: any;
+export declare const PhoneText: any;
+export declare const TosRow: any;
+export declare const AgreeText: any;
+export declare const PrivacyPolicyText: any;
+export declare const LinkText: any;
+export declare const SubmitButtonRow: any;
+export declare const PhoneError: any;
+export declare const AgreeTosError: any;

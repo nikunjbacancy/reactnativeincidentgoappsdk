@@ -1,0 +1,9 @@
+export declare const Logo: any;
+export declare const BackButtonContainer: any;
+export declare const BackButton: any;
+export declare const CategoryContainer: any;
+export declare const CategoryImage: any;
+export declare const OrganizationContainer: any;
+export declare const OrganizationName: any;
+export declare const CategoryContent: any;
+export declare const CategoryName: any;

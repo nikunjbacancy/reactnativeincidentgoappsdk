@@ -1,0 +1,33 @@
+<resources>
+  <string name="app_name">Incident go Package</string>
+
+  <string name="ble_not_supported">BLE is not supported</string>
+  <string name="label_data">Data:</string>
+  <string name="label_device_address">Device address:</string>
+  <string name="label_state">State:</string>
+  <string name="no_data">No data</string>
+  <string name="connected">Connected</string>
+  <string name="disconnected">Disconnected</string>
+  <string name="title_devices">BLE Device Scan</string>
+  <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+  <string name="unknown_device">Unknown device</string>
+  <string name="unknown_characteristic">Unknown characteristic</string>
+  <string name="unknown_service">Unknown service</string>
+  <string name="service_running">Application Running</string>
+  <string name="reconncet_notification">is disconnected, please locate and reconnect</string>
+  <string name="valrt_service_label">V.ALRT Background Service</string>
+  <string name="low_battery">Battery is Low</string>
+  <string name="bluetooth_off">Need bluetooth for V.ALRT to work.</string>
+  <string name="location_disabled">Location Disabled.</string>
+  <string name="need_data_connection">Need DATA connection for V.ALRT to work</string>
+  <string name="forget_me">Forget Me</string>
+  <string name="history_device_connected">Connected</string>
+  <string name="history_device_keypressed">Alert Pressed</string>
+  <string name="history_device_falldetect">FALL Detect</string>
+
+  <!-- Menu items -->
+  <string name="menu_connect">Connect</string>
+  <string name="menu_disconnect">Disconnect</string>
+  <string name="menu_scan">Scan</string>
+  <string name="menu_stop">Stop</string>
+</resources>

@@ -1,0 +1,1 @@
+{"version":3,"names":["default","getFlattenIndex"],"sources":["index.ts"],"sourcesContent":["// eslint-disable-next-line import/prefer-default-export\nexport { default as getFlattenIndex } from './getFlattenIndex';\n"],"mappings":"AAAA;AACA,SAASA,OAAO,IAAIC,eAAe,QAAQ,mBAAmB","ignoreList":[]}

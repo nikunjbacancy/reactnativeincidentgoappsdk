@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>example</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Incident Go needs permission to access your camera so you can record a video</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Incident Go needs permission to access your contacts to add contacts who should receive incident reports.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Incident Go needs permission to access your location so you can receive notifications</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Incident Go needs permission to access your location so you can receive notifications</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Incident Go needs permission to access your location so you can receive notifications</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Incident Go needs permission to access your location so you can receive notifications</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Incident Go needs permission to access your microphone to include audio with video</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Incident Go needs permission to access your location so you can receive notifications</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Incident Go need permission to access your photo library to set a profile photo</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Incident Go need permission to access your photo library to set a profile photo</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>didot_bold.ttf</string>
+		<string>greycliffcf_bold.otf</string>
+		<string>greycliffcf.otf</string>
+		<string>proxima_nova_bold.otf</string>
+		<string>proxima_nova_light.otf</string>
+		<string>proxima_nova_regular.otf</string>
+		<string>proxima_nova_semibold.otf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Fontisto.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+{"version":3,"names":["CHANGE_LOCALE","exports"],"sources":["constants.ts"],"sourcesContent":["/**\n *\n * LanguageProvider constants\n *\n */\n\nexport const CHANGE_LOCALE = 'LanguageProvider/CHANGE_LOCALE';\n"],"mappings":";;;;;;AAAA;AACA;AACA;AACA;AACA;;AAEO,MAAMA,aAAa,GAAAC,OAAA,CAAAD,aAAA,GAAG,gCAAgC","ignoreList":[]}

@@ -1,0 +1,1 @@
+{"version":3,"names":["en"],"sources":["index.ts"],"sourcesContent":["import en from './en';\n\nexport default {\n  'en-US': en,\n} as { [key: string]: {} };\n"],"mappings":"AAAA,OAAOA,EAAE,MAAM,MAAM;AAErB,eAAe;EACb,OAAO,EAAEA;AACX,CAAC","ignoreList":[]}

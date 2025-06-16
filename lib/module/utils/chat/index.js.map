@@ -1,0 +1,1 @@
+{"version":3,"names":["default","convertToGiftedChatMessage"],"sources":["index.ts"],"sourcesContent":["// eslint-disable-next-line import/prefer-default-export\nexport { default as convertToGiftedChatMessage } from './convertToGiftedChatMessage';\n"],"mappings":"AAAA;AACA,SAASA,OAAO,IAAIC,0BAA0B,QAAQ,8BAA8B","ignoreList":[]}

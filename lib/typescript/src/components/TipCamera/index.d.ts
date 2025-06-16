@@ -1,0 +1,20 @@
+import { Id, IncidentVideo } from 'incident-code-core';
+import React from 'react';
+import { RNCamera } from 'react-native-camera';
+import { TipCameraMode } from './types';
+export type TipProps = {
+    tipCameraMode?: TipCameraMode;
+    incidentVideos: IncidentVideo[];
+    isFocused?: boolean;
+    isVideoPaused?: boolean;
+    isRecordEnabled?: boolean;
+    isChatDisabled?: boolean;
+    onTimeChange?(time: number): void;
+    onRecordStarted?(): void;
+    onRecordFinished(uri: string): void;
+    onPhonePress(): void;
+    onChatPress(): void;
+    badges?: Id[];
+};
+declare const _default: React.MemoExoticComponent<React.ForwardRefExoticComponent<TipProps & React.RefAttributes<RNCamera>>>;
+export default _default;

@@ -1,0 +1,12 @@
+import { Incident } from 'incident-code-core';
+import { Location } from 'react-native-background-geolocation';
+import { RequestEscortActionTypes } from './types';
+export declare const startEscortRequest: (onLocation: (location: Location) => void, comment?: string, isPanic?: boolean) => RequestEscortActionTypes;
+export declare const startEscortSuccess: () => RequestEscortActionTypes;
+export declare const startEscortFailure: (error: Error) => RequestEscortActionTypes;
+export declare const cancelEscortRequest: () => RequestEscortActionTypes;
+export declare const cancelEscortSuccess: () => RequestEscortActionTypes;
+export declare const cancelEscortFailure: (error: Error) => RequestEscortActionTypes;
+export declare const showCancelEscortModal: () => RequestEscortActionTypes;
+export declare const hideCancelEscortModal: () => RequestEscortActionTypes;
+export declare const addPendingEscort: (incident: Incident) => RequestEscortActionTypes;

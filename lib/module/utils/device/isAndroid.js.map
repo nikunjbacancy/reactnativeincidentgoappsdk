@@ -1,0 +1,1 @@
+{"version":3,"names":["Platform","isAndroid","OS"],"sources":["isAndroid.ts"],"sourcesContent":["import { Platform } from 'react-native';\n\nconst isAndroid = Platform.OS === 'android';\n\nexport { isAndroid };\n"],"mappings":"AAAA,SAASA,QAAQ,QAAQ,cAAc;AAEvC,MAAMC,SAAS,GAAGD,QAAQ,CAACE,EAAE,KAAK,SAAS;AAE3C,SAASD,SAAS","ignoreList":[]}

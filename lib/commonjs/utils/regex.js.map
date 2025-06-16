@@ -1,0 +1,1 @@
+{"version":3,"names":["phone","exports","text"],"sources":["regex.ts"],"sourcesContent":["export const phone = /^(\\+\\d{1,2})?\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}$/;\nexport const text = /^[A-Za-z\\s]+$/;\n"],"mappings":";;;;;;AAAO,MAAMA,KAAK,GAAAC,OAAA,CAAAD,KAAA,GAAG,mDAAmD;AACjE,MAAME,IAAI,GAAAD,OAAA,CAAAC,IAAA,GAAG,eAAe","ignoreList":[]}

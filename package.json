@@ -1,0 +1,241 @@
+{
+  "name": "react-native-incident_go_package",
+  "version": "3.0.1",
+  "description": "test",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "*.podspec",
+    "install-peerDependencies.sh",
+    "assets",
+    "react-native.config.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "prepare": "bob build",
+    "release": "release-it",
+    "example": "yarn --cwd example",
+    "bootstrap": "yarn example && yarn && yarn example pods"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://gitlab.com/kundank1/incident_go_package",
+  "author": "kundank1 <kundan.kumar@bacancy.com> (https://gitlab.com/kundank1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/kundank1/incident_go_package/issues"
+  },
+  "homepage": "https://gitlab.com/kundank1/incident_go_package#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "^0.7.7",
+    "@babel/core": "^7.7.4",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/runtime": "^7.7.4",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@react-native-community/eslint-config": "3.2.0",
+    "@release-it/conventional-changelog": "^5.0.0",
+    "@types/jest": "^24.0.23",
+    "@types/lodash": "4.14.149",
+    "@types/qs": "6.9.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-native": "^0.60.23",
+    "@types/react-native-keep-awake": "2.0.2",
+    "@types/react-native-vector-icons": "^6.4.12",
+    "@types/react-native-video": "3.1.5",
+    "@types/react-redux": "7.1.5",
+    "@types/react-test-renderer": "16.9.1",
+    "@types/redux-promise-listener": "1.1.3",
+    "@types/styled-components": "4.4.0",
+    "@types/uuid": "3.4.7",
+    "@types/yup": "0.26.26",
+    "@typescript-eslint/eslint-plugin": "2.10.0",
+    "@typescript-eslint/parser": "2.10.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "commitlint": "^17.0.2",
+    "eslint": "6.7.2",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-import-resolver-webpack": "0.11.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-lodash": "6.0.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react-native": "3.8.1",
+    "eslint-plugin-redux-saga": "1.1.1",
+    "eslint-plugin-simple-import-sort": "5.0.0",
+    "husky": "3.1.0",
+    "jest": "^24.9.0",
+    "lint-staged": "9.5.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "pod-install": "^0.1.0",
+    "prettier": "1.19.1",
+    "react-native-builder-bob": "^0.18.3",
+    "react-test-renderer": "16.12.0",
+    "reactotron-react-native": "4.0.2",
+    "reactotron-redux": "3.1.2",
+    "reactotron-redux-saga": "4.2.3",
+    "redux-devtools-extension": "^2.13.8",
+    "release-it": "^15.0.0",
+    "stylelint": "12.0.0",
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-config-styled-components": "0.1.1",
+    "stylelint-processor-styled-components": "1.9.0",
+    "stylelint-react-native": "2.1.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "fbjs": "^3.0.4",
+    "formik": "2.0.6",
+    "immer": "5.0.0",
+    "lodash": "4.17.15",
+    "moment": "2.24.0",
+    "qs": "6.9.1",
+    "react-native-check-box": "2.1.7",
+    "react-native-config": "0.12.0",
+    "react-native-countdown-component": "2.7.1",
+    "react-native-gifted-chat": "0.16.3",
+    "react-native-invoke-app": "^1.0.6",
+    "react-native-modal": "^13.0.0",
+    "react-native-photo-upload": "^1.3.0",
+    "react-native-popup-menu": "0.15.6",
+    "react-native-progress": "5.0.0",
+    "react-native-select-dropdown": "4.0.1",
+    "react-native-splash-screen": "3.2.0",
+    "react-native-swiper": "1.6.0-rc.3",
+    "react-native-toast-message": "^1.6.0",
+    "react-navigation": "4.0.10",
+    "react-navigation-stack": "1.10.3",
+    "react-redux": "^8.0.5",
+    "react-redux-promise-listener": "1.0.0",
+    "redux": "4.0.4",
+    "redux-persist": "^6.0.0",
+    "redux-promise-listener": "^1.1.1",
+    "redux-saga": "1.1.3",
+    "sp-react-native-in-app-updates": "^1.1.7",
+    "styled-components": "5.0.0-rc.2",
+    "twilio": "^3.77.2",
+    "twilio-chat": "3.3.4",
+    "uuid": "3.4.0",
+    "yup": "0.27.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/node_modules",
+      "<rootDir>/lib/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|my-project|react-native-button)/)"
+    ],
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "./node_modules/react-navigation-tabs"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "parser": "@babel/eslint-parser",
+    "extends": [
+      "@react-native-community",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "quoteProps": "consistent",
+          "singleQuote": true,
+          "tabWidth": 2,
+          "trailingComma": "es5",
+          "useTabs": false
+        }
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  }
+}

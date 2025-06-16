@@ -1,0 +1,22 @@
+//Ignore node node_modules
+node_modules
+
+//Ignore Example node modules
+example/node_modules
+
+//Ignore example's ios pods
+example/ios/Pods
+
+//Ignore android files
+android/.gradle
+android/.idea
+android/build
+
+//Ignore example's android files
+example/android/.gradle
+example/android/.idea
+example/android/build
+example/android/app/build
+
+
+
