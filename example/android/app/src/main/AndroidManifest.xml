@@ -63,11 +63,11 @@
 
       <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyACFwr9Kmh2yi6gB0fU3SPBGD-YPgxCGBU" />
+        android:value="add google api key here" />
       <!-- react-native-background-geolocation licence -->
       <meta-data
         android:name="com.transistorsoft.locationmanager.license"
-        android:value="5d02b66b4bd10286880987fe76d090ccc2920844d53f189fecfb766a70f408ef" />
+        android:value="add transistor soft api key here" />
 
       <receiver
         android:name=".IncidentCoReceiver"

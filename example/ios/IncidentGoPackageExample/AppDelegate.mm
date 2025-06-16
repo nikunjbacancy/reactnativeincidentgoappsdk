@@ -43,7 +43,7 @@
   [FIRMessaging messaging].delegate = self;
 //AIzaSyDR75ZX9y0iC5B-DDsth2nCb8oqH2YurLw
   
-  [GMSServices provideAPIKey:@"AIzaSyACFwr9Kmh2yi6gB0fU3SPBGD-YPgxCGBU"];
+  [GMSServices provideAPIKey:@"add api key here"];
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
 
